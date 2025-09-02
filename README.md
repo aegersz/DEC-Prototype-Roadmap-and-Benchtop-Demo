@@ -149,24 +149,34 @@ Assembly Instructions
 
 Schematic (ASCII)
 
-┌───────────────────────────────┐
-           │       Bench Power Supply       │
-           │  CC: 50–200 mA   CV: 1.5–3V │
-           │   + ──┐             ┌── -   │
-           └───────┴─────────────┴───────┘
-                   │                     │
-                  F+                     F-
-                   │                     │
-         ┌───────────────────────────────┐
-         │     Top Electrode (Graphite) │
-         └───────────────────────────────┘
-                   │
-         ┌───────────────────────────────┐
-         │ Separator (Fiberglass / Oil) │
-         └───────────────────────────────┘
-                   │
-         ┌───────────────────────────────┐
-         │ Bottom Electrode (Copper)    │
-         └───────────────────────────────┘
-                   │
-                 F-
+Bench Power Supply
+     + ------------------- -
+     |                     |
+     |    CC: 50–200 mA    |
+     |    CV: 1.5–3 V      |
+     |                     |
+     +---------------------+
+           |          |
+          F+          F-
+           |          |
+   -------------------------
+   |     Top Electrode     |
+   |      (Graphite)       |
+   -------------------------
+           |
+   -------------------------
+   | Separator (Fiberglass  |
+   | / Oil / Crystal)       |
+   -------------------------
+           |
+   -------------------------
+   |   Bottom Electrode     |
+   |      (Copper)          |
+   -------------------------
+           |
+          F-
+
+Additional Notes:
+- Use S+ / S- leads for Kelvin voltage measurement.
+- Keep current low for safety.
+- Add LED or small motor for visual demonstration.
