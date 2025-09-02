@@ -14,7 +14,7 @@ Materials: Off-the-shelf glass/plastic lab cells or test jars, crystal + oil for
 
 Tools: Multimeter, cheap battery analyzer (~$50).
 
-Demo: Light up an LED, run a fan, or charge a phone.
+Demo: Light up an LEDI, run a fan, or charge a phone.
 
 
 ⚠️ Safety: Keep voltage/current low to avoid fire/explosion risk.
@@ -170,9 +170,3 @@ Schematic (ASCII)
          └───────────────────────────────┘
                    │
                  F-
-
-Notes:
-
-S+
-
-
